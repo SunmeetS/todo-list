@@ -6,6 +6,9 @@ export const Todo = () => {
     let mainScreen = useRef()
     let [h4, setH4] = useState([])
     let input = useRef(null);
+    const abc = function (){
+        console.log("abc")
+    }
 
     useEffect(() => {
         input.current.focus()
