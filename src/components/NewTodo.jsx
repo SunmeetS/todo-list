@@ -11,6 +11,8 @@ export const NewTodo = () => {
     input.current.focus()
   }, [])
 
+  const abc = console.log("abc");
+
   let handleAddition = (e) => {
     if (e.key === 'Enter') {
       setNestedTodo([...nestedTodo, <NestedTodo />])
